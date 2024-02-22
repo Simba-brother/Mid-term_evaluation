@@ -1,0 +1,111 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+The style file: plain.bst
+Database file #1: ref.bib
+Repeated entry---line 769 of file ref.bib
+ : @book{poulin1996measuring
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1233 of file ref.bib
+ : @inproceedings{meng2021measuring
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1405 of file ref.bib
+ : @inproceedings{wu2019heterogeneous
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1459 of file ref.bib
+ : @inproceedings{pan2022decomposing
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1475 of file ref.bib
+ : @inproceedings{qi2022patching
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1509 of file ref.bib
+ : @inproceedings{li2021modeldiff
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1525 of file ref.bib
+ : @inproceedings{zhang2022remos
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1541 of file ref.bib
+ : @article{qi2023reusing
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1571 of file ref.bib
+ : @inproceedings{shen2019amalgamating
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1723 of file ref.bib
+ : @article{zhao2020highlight
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1891 of file ref.bib
+ : @inproceedings{shen2018munn
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1909 of file ref.bib
+ : @inproceedings{ma2018deepmutation
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1961 of file ref.bib
+ : @inproceedings{yang2017deep
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2013 of file ref.bib
+ : @inproceedings{wu2019heterogeneous
+ :                                   ,
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in 10fruit
+Warning--to sort, need author or key in DangerOfExtinction
+Warning--to sort, need author or key in Animal5Mammal
+Warning--to sort, need author or key in wildCats
+Warning--can't use both volume and number fields in mirzadeh2020improved
+Warning--can't use both volume and number fields in shen2019amalgamating
+Warning--can't use both volume and number fields in yang2017deep
+Warning--can't use both volume and number fields in zhang2021towards
+You've used 94 entries,
+            2118 wiz_defined-function locations,
+            967 strings with 24243 characters,
+and the built_in function-call counts, 39667 in all, are:
+= -- 3861
+> -- 2120
+< -- 48
++ -- 846
+- -- 746
+* -- 2691
+:= -- 6160
+add.period$ -- 291
+call.type$ -- 94
+change.case$ -- 649
+chr.to.int$ -- 0
+cite$ -- 102
+duplicate$ -- 1498
+empty$ -- 2953
+format.name$ -- 746
+if$ -- 8541
+int.to.chr$ -- 0
+int.to.str$ -- 94
+missing$ -- 76
+newline$ -- 469
+num.names$ -- 180
+pop$ -- 845
+preamble$ -- 1
+purify$ -- 556
+quote$ -- 0
+skip$ -- 1260
+stack$ -- 0
+substring$ -- 2397
+swap$ -- 565
+text.length$ -- 48
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 374
+warning$ -- 8
+while$ -- 342
+width$ -- 96
+write$ -- 1010
+(There were 14 error messages)

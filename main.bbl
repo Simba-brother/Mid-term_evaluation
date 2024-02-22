@@ -1,0 +1,621 @@
+\begin{thebibliography}{10}
+
+\bibitem{wildCats}
+wild cats, {five different wild cats (cheetah, tigers, jaguars, panthers, and
+  leopards)}, 2020.
+\newblock \url{https://www.kaggle.com/datasets/enisahovi/cats-projekat-4}, Last
+  accessed on 2023-6-25.
+
+\bibitem{DangerOfExtinction}
+Danger of extinction / animal image set, {}, 2021.
+\newblock
+  \url{https://www.kaggle.com/datasets/brsdincer/danger-of-extinction-animal-image-set/code},
+  Last accessed on 2023-6-25.
+
+\bibitem{10fruit}
+10 fruit, 2022.
+\newblock \url{https://www.kaggle.com/datasets/nguyenductai243/10-fruit}, Last
+  accessed on 2023-6-25.
+
+\bibitem{Animal5Mammal}
+Animal -5 mammal, {This dataset contain 5 different mammals(Cat, Dog , Elephant
+  , Horse , Lion)}, 2022.
+\newblock \url{https://www.kaggle.com/datasets/shiv28/animal-5-mammal}, Last
+  accessed on 2023-6-25.
+
+\bibitem{ahuja2022testing}
+Mohit~Kumar Ahuja, Arnaud Gotlieb, and Helge Spieker.
+\newblock Testing deep learning models: A first comparative study of multiple
+  testing techniques.
+\newblock In {\em 2022 IEEE International Conference on Software Testing,
+  Verification and Validation Workshops (ICSTW)}, pages 130--137. IEEE, 2022.
+
+\bibitem{FlowersRecognition}
+{Alexander Mamaev}.
+\newblock Flowers recognition, {This dataset contains labeled 4242 images of
+  flowers.}, 2021.
+\newblock \url{https://www.kaggle.com/datasets/alxmamaev/flowers-recognition},
+  Last accessed on 2023-6-25.
+
+\bibitem{Vegetables}
+{ALI BALOCH}.
+\newblock Vegetables \& fruits fresh and stale, {Fresh and Stale Images of
+  Fruits and Vegetables for classification}, 2022.
+\newblock
+  \url{https://www.kaggle.com/datasets/alibaloch/vegetables-fruits-fresh-and-stale},
+  Last accessed on 2023-6-25.
+
+\bibitem{amershi2019software}
+Saleema Amershi, Andrew Begel, Christian Bird, Robert DeLine, Harald Gall, Ece
+  Kamar, Nachiappan Nagappan, Besmira Nushi, and Thomas Zimmermann.
+\newblock Software engineering for machine learning: A case study.
+\newblock In {\em 2019 IEEE/ACM 41st International Conference on Software
+  Engineering: Software Engineering in Practice (ICSE-SEIP)}, pages 291--300.
+  IEEE, 2019.
+
+\bibitem{WeatherImageRecognition}
+Jehan Bhathena.
+\newblock Weather image recognition, {This dataset contains labeled 6862 images
+  of different types of weather}, 2021.
+\newblock \url{https://www.kaggle.com/datasets/jehanbhathena/weather-dataset},
+  Last accessed on 2023-6-25.
+
+\bibitem{food11}
+{Bikram Saha}.
+\newblock food-11 image classification dataset, {11 categories of food images
+  (mini version of food-101 dataset)}, 2022.
+\newblock \url{https://www.kaggle.com/datasets/imbikramsaha/food11}, Last
+  accessed on 2023-6-25.
+
+\bibitem{self_Driving}
+Mariusz Bojarski, Davide Del~Testa, Daniel Dworakowski, Bernhard Firner, Beat
+  Flepp, Prasoon Goyal, Lawrence~D Jackel, Mathew Monfort, Urs Muller, Jiakai
+  Zhang, et~al.
+\newblock End to end learning for self-driving cars.
+\newblock {\em arXiv preprint arXiv:1604.07316}, 2016.
+
+\bibitem{carlini2017towards}
+Nicholas Carlini and David Wagner.
+\newblock Towards evaluating the robustness of neural networks.
+\newblock In {\em 2017 ieee symposium on security and privacy (sp)}, pages
+  39--57. Ieee, 2017.
+
+\bibitem{chakraborty2019software}
+Joymallya Chakraborty, Tianpei Xia, Fahmid~M Fahid, and Tim Menzies.
+\newblock Software engineering for fairness: A case study with hyperparameter
+  optimization.
+\newblock {\em arXiv preprint arXiv:1905.05786}, 2019.
+
+\bibitem{chen2022knowledge}
+Defang Chen, Jian-Ping Mei, Hailin Zhang, Can Wang, Yan Feng, and Chun Chen.
+\newblock Knowledge distillation with the reused teacher classifier.
+\newblock In {\em Proceedings of the IEEE/CVF conference on computer vision and
+  pattern recognition}, pages 11933--11942, 2022.
+
+\bibitem{CarBodyStyleDataset}
+{Darshan Deshpande}.
+\newblock Car body style dataset, {An image based dataset containing different
+  car body styles}, 2021.
+\newblock
+  \url{https://www.kaggle.com/datasets/darshan1504/car-body-style-dataset},
+  Last accessed on 2023-6-25.
+
+\bibitem{Tesla}
+Alex Davies.
+\newblock Tesla's latest autopilot death looks just like a prior crash.
+\newblock
+  \url{https://www.wired.com/story/teslas-latest-autopilot-death-looks-like-prior-crash/}.
+
+\bibitem{de2022class}
+Marcus de~Carvalho, Mahardhika Pratama, Jie Zhang, and Yajuan Sun.
+\newblock Class-incremental learning via knowledge amalgamation.
+\newblock In {\em Joint European Conference on Machine Learning and Knowledge
+  Discovery in Databases}, pages 36--50. Springer, 2022.
+
+\bibitem{ding2022pre}
+Yao-Xiang Ding, Xi-Zhu Wu, Kun Zhou, and Zhi-Hua Zhou.
+\newblock Pre-trained model reusability evaluation for small-data transfer
+  learning.
+\newblock {\em Advances in Neural Information Processing Systems},
+  35:37389--37400, 2022.
+
+\bibitem{ding2020boosting}
+Yao-Xiang Ding and Zhi-Hua Zhou.
+\newblock Boosting-based reliable model reuse.
+\newblock In {\em Asian Conference on Machine Learning}, pages 145--160. PMLR,
+  2020.
+
+\bibitem{ding2018detecting}
+Zeyu Ding, Yuxin Wang, Guanhong Wang, Danfeng Zhang, and Daniel Kifer.
+\newblock Detecting violations of differential privacy.
+\newblock In {\em Proceedings of the 2018 ACM SIGSAC Conference on Computer and
+  Communications Security}, pages 475--489, 2018.
+
+\bibitem{doshi2017towards}
+Finale Doshi-Velez and Been Kim.
+\newblock Towards a rigorous science of interpretable machine learning.
+\newblock {\em arXiv preprint arXiv:1702.08608}, 2017.
+
+\bibitem{CarBodyStyle}
+{Edward Kahara}.
+\newblock Car body style, {}, 2020.
+\newblock \url{https://www.kaggle.com/datasets/edkahara/car-body-stylet}, Last
+  accessed on 2023-6-25.
+
+\bibitem{fang2021mosaicking}
+Gongfan Fang, Yifan Bao, Jie Song, Xinchao Wang, Donglin Xie, Chengchao Shen,
+  and Mingli Song.
+\newblock Mosaicking to distill: Knowledge distillation from out-of-domain
+  data.
+\newblock {\em Advances in Neural Information Processing Systems},
+  34:11920--11932, 2021.
+
+\bibitem{feng2020deepgini}
+Yang Feng, Qingkai Shi, Xinyu Gao, Jun Wan, Chunrong Fang, and Zhenyu Chen.
+\newblock Deepgini: prioritizing massive tests to enhance the robustness of
+  deep neural networks.
+\newblock In {\em Proceedings of the 29th ACM SIGSOFT International Symposium
+  on Software Testing and Analysis}, pages 177--188, 2020.
+
+\bibitem{AfricanWildlife}
+Bianca Ferreira.
+\newblock African wildlife, {A data set of 4 African animals in the YOLO
+  labeling format.}, 2020.
+\newblock
+  \url{https://www.kaggle.com/datasets/biancaferreira/african-wildlife}, Last
+  accessed on 2023-6-25.
+
+\bibitem{gao2019strip}
+Yansong Gao, Change Xu, Derui Wang, Shiping Chen, Damith~C Ranasinghe, and
+  Surya Nepal.
+\newblock Strip: A defence against trojan attacks on deep neural networks.
+\newblock In {\em Proceedings of the 35th Annual Computer Security Applications
+  Conference}, pages 113--125, 2019.
+
+\bibitem{100Sports}
+Gerry.
+\newblock 100 sports image classification, {13493 train, 500 test, 500 validate
+  images 224,224,3 jpg formatn}, 2023.
+\newblock
+  \url{https://www.kaggle.com/datasets/gpiosenka/sports-classification}, Last
+  accessed on 2023-6-25.
+
+\bibitem{goodfellow2016cleverhans}
+Ian Goodfellow, Nicolas Papernot, Patrick McDaniel, Reuben Feinman, Fartash
+  Faghri, Alexander Matyasko, Karen Hambardzumyan, Yi-Lin Juang, Alexey
+  Kurakin, Ryan Sheatsley, et~al.
+\newblock cleverhans v0. 1: an adversarial machine learning library.
+\newblock {\em arXiv preprint arXiv:1610.00768}, 1, 2016.
+
+\bibitem{gou2021knowledge}
+Jianping Gou, Baosheng Yu, Stephen~J Maybank, and Dacheng Tao.
+\newblock Knowledge distillation: A survey.
+\newblock {\em International Journal of Computer Vision}, 129:1789--1819, 2021.
+
+\bibitem{hu2019deepmutation++}
+Qiang Hu, Lei Ma, Xiaofei Xie, Bing Yu, Yang Liu, and Jianjun Zhao.
+\newblock Deepmutation++: A mutation testing framework for deep learning
+  systems.
+\newblock In {\em 2019 34th IEEE/ACM International Conference on Automated
+  Software Engineering (ASE)}, pages 1158--1161. IEEE, 2019.
+
+\bibitem{humbatova2021deepcrime}
+Nargiz Humbatova, Gunel Jahangirova, and Paolo Tonella.
+\newblock Deepcrime: mutation testing of deep learning systems based on real
+  faults.
+\newblock In {\em Proceedings of the 30th ACM SIGSOFT International Symposium
+  on Software Testing and Analysis}, pages 67--78, 2021.
+
+\bibitem{ji2018model}
+Yujie Ji, Xinyang Zhang, Shouling Ji, Xiapu Luo, and Ting Wang.
+\newblock Model-reuse attacks on deep learning systems.
+\newblock In {\em Proceedings of the 2018 ACM SIGSAC conference on computer and
+  communications security}, pages 349--363, 2018.
+
+\bibitem{jia2010analysis}
+Yue Jia and Mark Harman.
+\newblock An analysis and survey of the development of mutation testing.
+\newblock {\em IEEE transactions on software engineering}, 37(5):649--678,
+  2010.
+
+\bibitem{jing2021amalgamating}
+Yongcheng Jing, Yiding Yang, Xinchao Wang, Mingli Song, and Dacheng Tao.
+\newblock Amalgamating knowledge from heterogeneous graph neural networks.
+\newblock In {\em Proceedings of the IEEE/CVF conference on computer vision and
+  pattern recognition}, pages 15709--15718, 2021.
+
+\bibitem{kaviani2021defense}
+Sara Kaviani and Insoo Sohn.
+\newblock Defense against neural trojan attacks: A survey.
+\newblock {\em Neurocomputing}, 423:651--667, 2021.
+
+\bibitem{SportsImageDataset}
+Rushikesh Konapure.
+\newblock Sports image dataset, {Collection of images for 22 types of sports},
+  2020.
+\newblock
+  \url{https://www.kaggle.com/datasets/rishikeshkonapure/sports-image-dataset},
+  Last accessed on 2023-6-25.
+
+\bibitem{li2022distilling}
+Shaojie Li, Mingbao Lin, Yan Wang, Yongjian Wu, Yonghong Tian, Ling Shao, and
+  Rongrong Ji.
+\newblock Distilling a powerful student model via online knowledge
+  distillation.
+\newblock {\em IEEE Transactions on Neural Networks and Learning Systems},
+  2022.
+
+\bibitem{li2022backdoor}
+Yiming Li, Yong Jiang, Zhifeng Li, and Shu-Tao Xia.
+\newblock Backdoor learning: A survey.
+\newblock {\em IEEE Transactions on Neural Networks and Learning Systems},
+  2022.
+
+\bibitem{li2021modeldiff}
+Yuanchun Li, Ziqi Zhang, Bingyan Liu, Ziyue Yang, and Yunxin Liu.
+\newblock Modeldiff: Testing-based dnn similarity comparison for model reuse
+  detection.
+\newblock In {\em Proceedings of the 30th ACM SIGSOFT International Symposium
+  on Software Testing and Analysis}, pages 139--151, 2021.
+
+\bibitem{Boosting}
+Zenan Li, Xiaoxing Ma, Chang Xu, Chun Cao, Jingwei Xu, and Jian L{\"u}.
+\newblock Boosting operational dnn testing efficiency through conditioning.
+\newblock In {\em Proceedings of the 2019 27th ACM Joint Meeting on European
+  Software Engineering Conference and Symposium on the Foundations of Software
+  Engineering}, pages 499--509, 2019.
+
+\bibitem{medical}
+Geert Litjens, Thijs Kooi, Babak~Ehteshami Bejnordi, Arnaud Arindra~Adiyoso
+  Setio, Francesco Ciompi, Mohsen Ghafoorian, Jeroen~Awm Van Der~Laak, Bram
+  Van~Ginneken, and Clara~I S{\'a}nchez.
+\newblock A survey on deep learning in medical image analysis.
+\newblock {\em Medical image analysis}, 42:60--88, 2017.
+
+\bibitem{liu2019knowledge}
+Iou-Jen Liu, Jian Peng, and Alexander~G Schwing.
+\newblock Knowledge flow: Improve upon your teachers.
+\newblock {\em arXiv preprint arXiv:1904.05878}, 2019.
+
+\bibitem{liu2019abs}
+Yingqi Liu, Wen-Chuan Lee, Guanhong Tao, Shiqing Ma, Yousra Aafer, and Xiangyu
+  Zhang.
+\newblock Abs: Scanning neural networks for back-doors by artificial brain
+  stimulation.
+\newblock In {\em Proceedings of the 2019 ACM SIGSAC Conference on Computer and
+  Communications Security}, pages 1265--1282, 2019.
+
+\bibitem{liu2020survey}
+Yuntao Liu, Ankit Mondal, Abhishek Chakraborty, Michael Zuzak, Nina Jacobsen,
+  Daniel Xing, and Ankur Srivastava.
+\newblock A survey on neural trojans.
+\newblock In {\em 2020 21st International Symposium on Quality Electronic
+  Design (ISQED)}, pages 33--39. IEEE, 2020.
+
+\bibitem{luo2019knowledge}
+Sihui Luo, Xinchao Wang, Gongfan Fang, Yao Hu, Dapeng Tao, and Mingli Song.
+\newblock Knowledge amalgamation from heterogeneous networks by common feature
+  learning.
+\newblock {\em arXiv preprint arXiv:1906.10546}, 2019.
+
+\bibitem{ma2018deepmutation}
+Lei Ma, Fuyuan Zhang, Jiyuan Sun, Minhui Xue, Bo~Li, Felix Juefei-Xu, Chao Xie,
+  Li~Li, Yang Liu, Jianjun Zhao, et~al.
+\newblock Deepmutation: Mutation testing of deep learning systems.
+\newblock In {\em 2018 IEEE 29th International Symposium on Software
+  Reliability Engineering (ISSRE)}, pages 100--111. IEEE, 2018.
+
+\bibitem{FoodRecognition}
+{Manish KC}.
+\newblock Food recognition - burger, pizza \& coke, {Build a machine learning
+  model to recognize the food image.}, 2022.
+\newblock
+  \url{https://www.kaggle.com/datasets/manishkc06/food-classification-burger-pizza-coke?select=Training_set_food.csv},
+  Last accessed on 2023-6-25.
+
+\bibitem{WildlifeAnimalsImages}
+Anshul Mehta.
+\newblock Wildlife animals images, {Dataset containing Images of Wildlife
+  Animals}, 2023.
+\newblock
+  \url{https://www.kaggle.com/datasets/anshulmehtakaggl/wildlife-animals-images?select=cheetah-resize-224},
+  Last accessed on 2023-6-25.
+
+\bibitem{meng2021measuring}
+Linghan Meng, Yanhui Li, Lin Chen, Zhi Wang, Di~Wu, Yuming Zhou, and Baowen Xu.
+\newblock Measuring discrimination to boost comparative testing for multiple
+  deep learning models.
+\newblock In {\em 2021 IEEE/ACM 43rd International Conference on Software
+  Engineering (ICSE)}, pages 385--396. IEEE, 2021.
+
+\bibitem{menghani2023efficient}
+Gaurav Menghani.
+\newblock Efficient deep learning: A survey on making deep learning models
+  smaller, faster, and better.
+\newblock {\em ACM Computing Surveys}, 55(12):1--37, 2023.
+
+\bibitem{menzies2019five}
+Tim Menzies.
+\newblock The five laws of se for ai.
+\newblock {\em IEEE Software}, 37(1):81--85, 2019.
+
+\bibitem{mirzadeh2020improved}
+Seyed~Iman Mirzadeh, Mehrdad Farajtabar, Ang Li, Nir Levine, Akihiro Matsukawa,
+  and Hassan Ghasemzadeh.
+\newblock Improved knowledge distillation via teacher assistant.
+\newblock In {\em Proceedings of the AAAI conference on artificial
+  intelligence}, volume~34, pages 5191--5198, 2020.
+
+\bibitem{mohammed2023comprehensive}
+Ammar Mohammed and Rania Kora.
+\newblock A comprehensive review on ensemble deep learning: Opportunities and
+  challenges.
+\newblock {\em Journal of King Saud University-Computer and Information
+  Sciences}, 2023.
+
+\bibitem{moosavi2016deepfool}
+Seyed-Mohsen Moosavi-Dezfooli, Alhussein Fawzi, and Pascal Frossard.
+\newblock Deepfool: a simple and accurate method to fool deep neural networks.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 2574--2582, 2016.
+
+\bibitem{pan2020decomposing}
+Rangeet Pan and Hridesh Rajan.
+\newblock On decomposing a deep neural network into modules.
+\newblock In {\em Proceedings of the 28th ACM Joint Meeting on European
+  Software Engineering Conference and Symposium on the Foundations of Software
+  Engineering}, pages 889--900, 2020.
+
+\bibitem{pan2022decomposing}
+Rangeet Pan and Hridesh Rajan.
+\newblock Decomposing convolutional neural networks into reusable and
+  replaceable modules.
+\newblock In {\em Proceedings of the 44th International Conference on Software
+  Engineering}, pages 524--535, 2022.
+
+\bibitem{papernot2016technical}
+Nicolas Papernot, Fartash Faghri, Nicholas Carlini, Ian Goodfellow, Reuben
+  Feinman, Alexey Kurakin, Cihang Xie, Yash Sharma, Tom Brown, Aurko Roy,
+  et~al.
+\newblock Technical report on the cleverhans v2. 1.0 adversarial examples
+  library.
+\newblock {\em arXiv preprint arXiv:1610.00768}, 2016.
+
+\bibitem{park2020feature}
+SeongUk Park and Nojun Kwak.
+\newblock Feature-level ensemble knowledge distillation for aggregating
+  knowledge from multiple networks.
+\newblock In {\em ECAI 2020}, pages 1411--1418. IOS Press, 2020.
+
+\bibitem{pei2017deepxplore}
+Kexin Pei, Yinzhi Cao, Junfeng Yang, and Suman Jana.
+\newblock Deepxplore: Automated whitebox testing of deep learning systems.
+\newblock In {\em proceedings of the 26th Symposium on Operating Systems
+  Principles}, pages 1--18, 2017.
+
+\bibitem{poulin1996measuring}
+Jeffrey~S Poulin.
+\newblock {\em Measuring software reuse: principles, practices, and economic
+  models}.
+\newblock Addison-Wesley Longman Publishing Co., Inc., 1996.
+
+\bibitem{qi2022patching}
+Binhang Qi, Hailong Sun, Xiang Gao, and Hongyu Zhang.
+\newblock Patching weak convolutional neural network models through
+  modularization and composition.
+\newblock In {\em Proceedings of the 37th IEEE/ACM International Conference on
+  Automated Software Engineering}, pages 1--12, 2022.
+
+\bibitem{qi2023reusing}
+Binhang Qi, Hailong Sun, Xiang Gao, Hongyu Zhang, Zhaotian Li, and Xudong Liu.
+\newblock Reusing deep neural network models through model re-engineering.
+\newblock {\em arXiv preprint arXiv:2304.00245}, 2023.
+
+\bibitem{saleiro2018aequitas}
+Pedro Saleiro, Benedict Kuester, Loren Hinkson, Jesse London, Abby Stevens, Ari
+  Anisfeld, Kit~T Rodolfa, and Rayid Ghani.
+\newblock Aequitas: A bias and fairness audit toolkit.
+\newblock {\em arXiv preprint arXiv:1811.05577}, 2018.
+
+\bibitem{AnimalImageDataset}
+Ashish Saxena.
+\newblock Animal image dataset(dog, cat and panda), {Dataset for Image
+  Classification Practice}, 2019.
+\newblock
+  \url{https://www.kaggle.com/datasets/ashishsaxena2209/animal-image-datasetdog-cat-and-panda},
+  Last accessed on 2023-6-25.
+
+\bibitem{shao2021towards}
+Jie-Jing Shao, Zhanzhan Cheng, Yu-Feng Li, and Shiliang Pu.
+\newblock Towards robust model reuse in the presence of latent domains.
+\newblock In {\em IJCAI}, pages 2957--2963, 2021.
+
+\bibitem{shen2019amalgamating}
+Chengchao Shen, Xinchao Wang, Jie Song, Li~Sun, and Mingli Song.
+\newblock Amalgamating knowledge towards comprehensive classification.
+\newblock In {\em Proceedings of the AAAI Conference on Artificial
+  Intelligence}, volume~33, pages 3068--3075, 2019.
+
+\bibitem{shen2019customizing}
+Chengchao Shen, Mengqi Xue, Xinchao Wang, Jie Song, Li~Sun, and Mingli Song.
+\newblock Customizing student networks from heterogeneous teachers via adaptive
+  knowledge amalgamation.
+\newblock In {\em Proceedings of the IEEE/CVF International Conference on
+  Computer Vision}, pages 3504--3513, 2019.
+
+\bibitem{shen2020mcp}
+Weijun Shen, Yanhui Li, Lin Chen, Yuanlei Han, Yuming Zhou, and Baowen Xu.
+\newblock Multiple-boundary clustering and prioritization to promote neural
+  network retraining.
+\newblock In {\em Proceedings of the 35th IEEE/ACM International Conference on
+  Automated Software Engineering}, pages 410--422, 2020.
+
+\bibitem{shen2020multiple}
+Weijun Shen, Yanhui Li, Lin Chen, Yuanlei Han, Yuming Zhou, and Baowen Xu.
+\newblock Multiple-boundary clustering and prioritization to promote neural
+  network retraining.
+\newblock In {\em Proceedings of the 35th IEEE/ACM International Conference on
+  Automated Software Engineering}, pages 410--422, 2020.
+
+\bibitem{shen2018munn}
+Weijun Shen, Jun Wan, and Zhenyu Chen.
+\newblock Munn: Mutation analysis of neural networks.
+\newblock In {\em 2018 IEEE International Conference on Software Quality,
+  Reliability and Security Companion (QRS-C)}, pages 108--115. IEEE, 2018.
+
+\bibitem{WeatherClassification}
+Jagadeesh Suggula.
+\newblock Weather classification, {}, 2020.
+\newblock
+  \url{https://www.kaggle.com/datasets/jagadeesh23/weather-classification},
+  Last accessed on 2023-6-25.
+
+\bibitem{sung2022lst}
+Yi-Lin Sung, Jaemin Cho, and Mohit Bansal.
+\newblock Lst: Ladder side-tuning for parameter and memory efficient transfer
+  learning.
+\newblock {\em Advances in Neural Information Processing Systems},
+  35:12991--13005, 2022.
+
+\bibitem{tan2022towards}
+Peng Tan, Zhi-Hao Tan, Yuan Jiang, and Zhi-Hua Zhou.
+\newblock Towards enabling learnware to handle heterogeneous feature spaces.
+\newblock {\em Machine Learning}, pages 1--22, 2022.
+
+\bibitem{tian2018deeptest}
+Yuchi Tian, Kexin Pei, Suman Jana, and Baishakhi Ray.
+\newblock Deeptest: Automated testing of deep-neural-network-driven autonomous
+  cars.
+\newblock In {\em Proceedings of the 40th international conference on software
+  engineering}, pages 303--314, 2018.
+
+\bibitem{FlowerClassification}
+{Utkarsh Saxena}.
+\newblock Flower classification | 10 classes |, {Rose, Lily, Sunflower,
+  Lavender, Daisy +5 Flowers Classification.}, 2023.
+\newblock
+  \url{https://www.kaggle.com/datasets/utkarshsaxenadn/flower-classification-5-classes-roselilyetc},
+  Last accessed on 2023-6-25.
+
+\bibitem{wang2019adversarial}
+Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, and Peixin Zhang.
+\newblock Adversarial sample detection for deep neural network through model
+  mutation testing.
+\newblock In {\em 2019 IEEE/ACM 41st International Conference on Software
+  Engineering (ICSE)}, pages 1245--1256. IEEE, 2019.
+
+\bibitem{wang2021knowledge}
+Lin Wang and Kuk-Jin Yoon.
+\newblock Knowledge distillation and student-teacher learning for visual
+  intelligence: A review and new outlooks.
+\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
+  44(6):3048--3068, 2021.
+
+\bibitem{wu2019heterogeneous}
+Xi-Zhu Wu, Song Liu, and Zhi-Hua Zhou.
+\newblock Heterogeneous model reuse via optimizing multiparty multiclass
+  margin.
+\newblock In {\em International Conference on Machine Learning}, pages
+  6840--6849. PMLR, 2019.
+
+\bibitem{wu2021model}
+Xi-Zhu Wu, Wenkai Xu, Song Liu, and Zhi-Hua Zhou.
+\newblock Model reuse with reduced kernel mean embedding specification.
+\newblock {\em IEEE Transactions on Knowledge and Data Engineering},
+  35(1):699--710, 2021.
+
+\bibitem{speech_recognition}
+Wayne Xiong, Jasha Droppo, Xuedong Huang, Frank Seide, Mike Seltzer, Andreas
+  Stolcke, Dong Yu, and Geoffrey Zweig.
+\newblock Achieving human parity in conversational speech recognition.
+\newblock {\em arXiv preprint arXiv:1610.05256}, 2016.
+
+\bibitem{xu2022hierarchical}
+Renjun Xu, Shuoying Liang, Lanyu Wen, Zhitong Guo, Xinyue Huang, Mingli Song,
+  Jindong Wang, Xiaoxiao Xu, and Huajun Chen.
+\newblock Hierarchical knowledge amalgamation with dual discriminative feature
+  alignment.
+\newblock {\em Information Sciences}, 613:556--574, 2022.
+
+\bibitem{yang2017deep}
+Yang Yang, De-Chuan Zhan, Ying Fan, Yuan Jiang, and Zhi-Hua Zhou.
+\newblock Deep learning for fixed model reuse.
+\newblock In {\em Proceedings of the AAAI Conference on Artificial
+  Intelligence}, volume~31, 2017.
+
+\bibitem{ye2019student}
+Jingwen Ye, Yixin Ji, Xinchao Wang, Kairi Ou, Dapeng Tao, and Mingli Song.
+\newblock Student becoming the master: Knowledge amalgamation for joint scene
+  parsing, depth estimation, and more.
+\newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition}, pages 2829--2838, 2019.
+
+\bibitem{ye2019amalgamating}
+WANG~XC YE~JW et~al.
+\newblock Amalgamating filtered knowledge: Learning task-customized student
+  from multi-task teachers [c].
+\newblock In {\em Proceedings of the Twenty-Eighth International Joint
+  Conference on Artificial Intelligence, Macao, China}, pages 4128--4134, 2019.
+
+\bibitem{you2017learning}
+Shan You, Chang Xu, Chao Xu, and Dacheng Tao.
+\newblock Learning from multiple teacher networks.
+\newblock In {\em Proceedings of the 23rd ACM SIGKDD International Conference
+  on Knowledge Discovery and Data Mining}, pages 1285--1294, 2017.
+
+\bibitem{yu2022arm}
+Linzhu Yu, Dawei Jiang, Ke~Chen, and Lidan Shou.
+\newblock Arm: Efficient learning of neural retrieval models with desired
+  accuracy by automatic knowledge amalgamation.
+\newblock In {\em Proceedings of the 45th International ACM SIGIR Conference on
+  Research and Development in Information Retrieval}, pages 3345--3349, 2022.
+
+\bibitem{landscapes}
+Jie~M Zhang, Mark Harman, Lei Ma, and Yang Liu.
+\newblock Machine learning testing: Survey, landscapes and horizons.
+\newblock {\em IEEE Transactions on Software Engineering}, 2020.
+
+\bibitem{zhang2021towards}
+Yu-Jie Zhang, Yu-Hu Yan, Peng Zhao, and Zhi-Hua Zhou.
+\newblock Towards enabling learnware to handle unseen jobs.
+\newblock In {\em Proceedings of the AAAI Conference on Artificial
+  Intelligence}, volume~35, pages 10964--10972, 2021.
+
+\bibitem{zhang2018empirical}
+Yuhao Zhang, Yifan Chen, Shing-Chi Cheung, Yingfei Xiong, and Lu~Zhang.
+\newblock An empirical study on tensorflow program bugs.
+\newblock In {\em Proceedings of the 27th ACM SIGSOFT International Symposium
+  on Software Testing and Analysis}, pages 129--140, 2018.
+
+\bibitem{zhang2022remos}
+Ziqi Zhang, Yuanchun Li, Jindong Wang, Bingyan Liu, Ding Li, Yao Guo, Xiangqun
+  Chen, and Yunxin Liu.
+\newblock Remos: reducing defect inheritance in transfer learning via relevant
+  model slicing.
+\newblock In {\em Proceedings of the 44th International Conference on Software
+  Engineering}, pages 1856--1868, 2022.
+
+\bibitem{zhao2020highlight}
+Haoran Zhao, Xin Sun, Junyu Dong, Changrui Chen, and Zihe Dong.
+\newblock Highlight every step: Knowledge distillation via collaborative
+  teaching.
+\newblock {\em IEEE Transactions on Cybernetics}, 52(4):2070--2081, 2020.
+
+\bibitem{zhao2020handling}
+Peng Zhao, Le-Wen Cai, and Zhi-Hua Zhou.
+\newblock Handling concept drift via model reuse.
+\newblock {\em Machine learning}, 109:533--568, 2020.
+
+\bibitem{zhou2016learnware}
+Zhi-Hua Zhou.
+\newblock Learnware: on the future of machine learning.
+\newblock {\em Frontiers Comput. Sci.}, 10(4):589--590, 2016.
+
+\bibitem{zhu2021student}
+Yichen Zhu and Yi~Wang.
+\newblock Student customized knowledge distillation: Bridging the gap between
+  student and teacher.
+\newblock In {\em Proceedings of the IEEE/CVF International Conference on
+  Computer Vision}, pages 5057--5066, 2021.
+
+\end{thebibliography}
