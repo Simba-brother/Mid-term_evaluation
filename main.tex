@@ -497,26 +497,64 @@ Dummy）。 选择HMR和CFL的原因是这两种方法可以很好地迁移到�
 
 具体来说，紧接上一步，我们从变异模型优先级队列中取出前50个变异模型作为我们变异模型组。将攻击目标类（如类别1）中的每个样本都喂给每个变异模型，即获得每个待测样的50个预测标签列表，进而计算每个预测标签列表的信息熵。根据我们的见解，干净样本对模型的变异更为敏感，故熵越大则该样本越可能为后门样本。将熵值作为优先级，我们可以获得待测样本的优先级队列（即越靠近队头越有可能为后门样本）。
 
-具体的实现算法如\ref{algorithm}所示
+具体的实现算法如\ref{algo_BSD}所示
+
 
 \begin{algorithm}
 	\caption{Backdoor Sample Detection}
-	\label{algorithm}
-	\KwData{ Poisoned dataset $D$, Backdoor model $\mathcal{M}$}
-	\KwResult{Sample Priority Queue $\mathcal{Q}$}
-	\tcp{Determination of the target category of the attack}
-	$mutaionRatioList \leftarrow [1\%,3\%,5\%,10\%,20\%,30\%,40\%,50\%,60\%,70\%,80\%]$\;
-	\For{$mutationRatio \in mutaionRatioList$}{ 
+	\label{algo_BSD}
+	\SetKwData{mutationRate}{mutationRate}\SetKwData{mutationRateList}{mutationRateList}\SetKwData{mutationModelList}{mutationModelList}\SetKwData{targetClass}{targetClass}\SetKwData{adaptiveRate}{adaptiveRate}
+	\SetKwData{seedSet}{seedSet}\SetKwData{remainSet}{remainSet}\SetKwData{mutationModel}{mutationModel}
+	\SetKwData{accSeed}{accSeed}\SetKwData{accRemain}{accRemain}
+	\SetKwData{mutationModelQueue}{mutationModelQueue}
+	\SetKwData{priority}{priority}\SetKwData{targetClassSet}{targetClassSet}
+	\SetKwData{selectedMutaionModels}{selectedMutaionModels}\SetKwData{sample}{sample}\SetKwData{entropy}{entropy}
+	\SetKwFunction{Union}{Union}\SetKwFunction{FindCompress}{FindCompress}
+	\SetKwFunction{genMutationModels}{genMutationModels}
+	\SetKwFunction{getTargetClass}{getTargetClass}
+	\SetKwFunction{getTargetClassSet}{getTargetClassSet}
+	\SetKwFunction{selectSeed}{selectSeed}
+	\SetKwFunction{calculateEntropy}{calculateEntropy}
 	
-	} 
-	$r\leftarrow t$ \;
-	$\Delta B^{\ast}\leftarrow -\infty$\;
-	\While{$\Delta B\leq \Delta B^{\ast}$ and $r\leq T$}{$Q\leftarrow\arg\max_{Q\geq 0}\Delta B^{Q}_{t,r}(I_{t-1},B_{t-1})$\;
-		$\Delta B\leftarrow \Delta B^{Q}_{t,r}(I_{t-1},B_{t-1})/(r-t+1)$\;
-		\If{$\Delta B\geq \Delta B^{\ast}$}{$Q^{\ast}\leftarrow Q$\;
-			$\Delta B^{\ast}\leftarrow \Delta B$\;}
-		$r\leftarrow r+1$\;}
+	\KwIn{Poisoned dataset $D$, Backdoor model $M$}
+	\KwOut{Sample Priority Queue $Q$}
+	\BlankLine
+	\mutationRateList $\leftarrow$ [1\%,3\%,5\%,10\%,20\%,30\%,40\%,50\%,60\%,70\%,80\%]\;
+	\targetClass $\leftarrow$ $-1$\;
+	\tcp{\textcolor{red}{The First step:Getting adaptive mutation rates and attacking target classes}}
+	\mutationModelList $\leftarrow$ None\;
+	\For{\mutationRate $\in$ \mutationRateList}{
+		\mutationModelList $\leftarrow$ \genMutationModels{$M$,\mutationRate}\;
+		\targetClass $\leftarrow$ \getTargetClass{$D$, \mutationModelList }\;
+		\If{\targetClass $\neq -1$}{
+			\mutationModelList = \mutationModelList\;
+			\targetClass = \targetClass\;
+			break\;
+		}
+	}
+	\tcp{\textcolor{red}{Selecting clean sample seeds from the attack target class}}
+	\targetClassSet $\leftarrow$ \getTargetClassSet{$D$,\targetClass}\;
+	\seedSet, \remainSet $\leftarrow$ \selectSeed{\targetClassSet}\;
+	\tcp{\textcolor{red}{Ranking the mutaion models}}
+	\mutationModelQueue $\leftarrow$ PriorityQueue()\;
+	\For{\mutationModel $\in$  \mutationModelList}{
+		\accSeed $\leftarrow$ \mutationModel.eval(\seedSet)\;
+		\accRemain $\leftarrow$ \mutationModel.eval(\remainSet)\;
+		\priority $\leftarrow$ \accSeed-\accRemain\;
+		\mutationModelQueue.put(\priority, \mutationModel)\;
+	}
+	\tcp{\textcolor{red}{Selection of top 50 mutation models}}
+	\selectedMutaionModels $\leftarrow$ \mutationModelQueue.getTop50()\;
+	\tcp{\textcolor{red}{The Second step:Calculate the entropy of the samples in the target class of the attack on the mutation model}}
+	$Q$ $\leftarrow$ PriorityQueue()\;
+	\For{\sample $in$ \targetClassSet}{
+		\entropy $\leftarrow$ \calculateEntropy{\sample,\selectedMutaionModels}\;
+		$Q$.put(\entropy, \sample)\;
+	}
+	return $Q$\;
+	
 \end{algorithm}
+
 
 我们在三个图像数据集（MINST、CIFAR-10、GTSRB）上进行了实验。其中第一步和第二步实验结果分布如图\ref{target_class}和图\ref{detect}所示，我们的方法在攻击类别的确定和后门样本的检测均取得了较好的效果。
 
