@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.7.21)  23 FEB 2024 21:51
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.7.21)  25 FEB 2024 14:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1847,14 +1847,14 @@ File: ./MCCP_results/animal_2.pdf Graphic file (type pdf)
 <use ./MCCP_results/animal_2.pdf>
 File: ./MCCP_results/animal_3.pdf Graphic file (type pdf)
 <use ./MCCP_results/animal_3.pdf>
- [10]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[10] [11]
 File: Backdoor.pdf Graphic file (type pdf)
 <use Backdoor.pdf>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[11]
+ [12] [13]
 Overfull \hbox (5.98154pt too wide) in paragraph at lines 493--494
 \OML/zavm/m/it/10.53937 RemainSet$\TU/SongtiSC(0)/m/n/10.53937 。|  然 后 计 算 变 异 
 模 型 $\OMS/cmsy/m/n/10.53937 M[]$ \TU/SongtiSC(0)/m/n/10.53937 在 $\OML/zavm/m/it
@@ -1871,7 +1871,6 @@ iSC(0)/m/n/10.53937 在 $\OML/zavm/m/it/10.53937 RemainSet$ \TU/SongtiSC(0)/m/n/
 ML/zavm/m/it/10.53937 ; Seed[]lean[] \OMS/zavm/m/n/10.53937 ^^@
  []
 
-[12]
 
 Package fontspec Warning: Font "STFangsong" does not contain requested Script
 (fontspec)                "CJK".
@@ -1902,7 +1901,7 @@ File: ./Backdoor_detect_result/target_class/BadNets.png Graphic file (type bmp)
 
 <./Backdoor_detect_result/target_class/BadNets.png>
 
-Overfull \hbox (10.72105pt too wide) in paragraph at lines 568--568
+Overfull \hbox (1.46852pt too wide) in paragraph at lines 568--568
  [][] 
  []
 
@@ -1910,14 +1909,14 @@ File: ./Backdoor_detect_result/target_class/Blended.png Graphic file (type bmp)
 
 <./Backdoor_detect_result/target_class/Blended.png>
 
-Overfull \hbox (10.72105pt too wide) in paragraph at lines 574--574
+Overfull \hbox (1.46852pt too wide) in paragraph at lines 574--574
  [][] 
  []
 
 File: ./Backdoor_detect_result/target_class/IAD.png Graphic file (type bmp)
 <./Backdoor_detect_result/target_class/IAD.png>
 
-Overfull \hbox (10.72105pt too wide) in paragraph at lines 580--580
+Overfull \hbox (1.46852pt too wide) in paragraph at lines 580--580
  [][] 
  []
 
@@ -1925,53 +1924,68 @@ File: ./Backdoor_detect_result/target_class/LabelConsistent.png Graphic file (t
 ype bmp)
 <./Backdoor_detect_result/target_class/LabelConsistent.png>
 
-Overfull \hbox (10.72105pt too wide) in paragraph at lines 587--587
+Overfull \hbox (1.46852pt too wide) in paragraph at lines 587--587
  [][] 
  []
 
 File: ./Backdoor_detect_result/target_class/Refool.png Graphic file (type bmp)
 <./Backdoor_detect_result/target_class/Refool.png>
 
-Overfull \hbox (10.72105pt too wide) in paragraph at lines 593--593
+Overfull \hbox (1.46852pt too wide) in paragraph at lines 593--593
  [][] 
  []
 
 File: ./Backdoor_detect_result/target_class/WaNet.png Graphic file (type bmp)
 <./Backdoor_detect_result/target_class/WaNet.png>
 
-Overfull \hbox (10.72105pt too wide) in paragraph at lines 599--599
+Overfull \hbox (1.46852pt too wide) in paragraph at lines 599--599
  [][] 
  []
 
 File: ./Backdoor_detect_result/detect/BadNets.png Graphic file (type bmp)
 <./Backdoor_detect_result/detect/BadNets.png>
+
+Overfull \hbox (1.46852pt too wide) in paragraph at lines 610--610
+ [][] 
+ []
+
 File: ./Backdoor_detect_result/detect/Blended.png Graphic file (type bmp)
 <./Backdoor_detect_result/detect/Blended.png>
 
-Overfull \hbox (16.3782pt too wide) in paragraph at lines 610--617
-[][] [] 
+Overfull \hbox (1.46852pt too wide) in paragraph at lines 616--616
+ [][] 
  []
 
 File: ./Backdoor_detect_result/detect/IAD.png Graphic file (type bmp)
 <./Backdoor_detect_result/detect/IAD.png>
+
+Overfull \hbox (1.46852pt too wide) in paragraph at lines 622--622
+ [][] 
+ []
+
 File: ./Backdoor_detect_result/detect/LabelConsistent.png Graphic file (type bm
 p)
 <./Backdoor_detect_result/detect/LabelConsistent.png>
 
-Overfull \hbox (16.3782pt too wide) in paragraph at lines 623--630
-[][] [] 
+Overfull \hbox (1.46852pt too wide) in paragraph at lines 629--629
+ [][] 
  []
 
 File: ./Backdoor_detect_result/detect/Refool.png Graphic file (type bmp)
 <./Backdoor_detect_result/detect/Refool.png>
+
+Overfull \hbox (1.46852pt too wide) in paragraph at lines 635--635
+ [][] 
+ []
+
 File: ./Backdoor_detect_result/detect/WaNet.png Graphic file (type bmp)
 <./Backdoor_detect_result/detect/WaNet.png>
 
-Overfull \hbox (16.3782pt too wide) in paragraph at lines 636--643
-[][] [] 
+Overfull \hbox (1.46852pt too wide) in paragraph at lines 641--641
+ [][] 
  []
 
-(./main.bbl [13] [14]
+[14] [15] (./main.bbl [16]
 Underfull \hbox (badness 2529) in paragraph at lines 34--39
 []\TU/lmr/m/n/10.53937 Alexander Mamaev.  Flowers recognition, This dataset con
 tains labeled 4242
@@ -1983,13 +1997,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--39
 [][][][][][] [] [][][] [] [][][][][][][][] [] [][][][][][][][][] []
  []
 
-[15]
+[17]
 Underfull \hbox (badness 2600) in paragraph at lines 161--167
 []\TU/lmr/m/n/10.53937 Bianca Ferreira.  African wildlife, A data set of 4 Afri
 can animals in the
  []
 
-[16]
+[18]
 Underfull \hbox (badness 5878) in paragraph at lines 233--239
 []\TU/lmr/m/n/10.53937 Rushikesh Konapure.  Sports image dataset, Collection of
  images for 22
@@ -2002,7 +2016,7 @@ Underfull \hbox (badness 1308) in paragraph at lines 233--239
 ]
  []
 
-[17]
+[19] [20]
 Underfull \hbox (badness 10000) in paragraph at lines 309--315
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][] [] [][][][][][] [] [][][][][][][][] [] [][][] [] [][][][] [] [][][]$\TU/lmr
@@ -2021,14 +2035,14 @@ Underfull \hbox (badness 2326) in paragraph at lines 317--323
 ][][][][][][][][][][][][][][][]$\TU/lmr/m/n/10.53937 , Last accessed on 2023-
  []
 
-[18] [19] [20]
+[21] [22]
 Underfull \hbox (badness 1077) in paragraph at lines 493--499
 [][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][]$\TU/lmr/m/n/10.53937 , Last a
 ccessed
  []
 
-[21] [22]) [23] [24] [25] [26] (./main.aux)
+[23] [24]) [25] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -2042,4 +2056,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  56i,18n,92p,804b,695s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (28 pages).
+Output written on main.pdf (27 pages).

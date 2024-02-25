@@ -347,61 +347,61 @@ $\mathcal{M_{C}}$ 输出层的神经元索引记为$\mathit{i}$。 神经元$\ma
 实验方法：我们引入了三种方法作为基线，包括 ICML’2019\cite{wu2019heterogeneous}的 HMR、IJCAI’2019\cite{luo2019knowledge}的 CFL）和一个通用基线（称为
 Dummy）。 选择HMR和CFL的原因是这两种方法可以很好地迁移到我们的研究场景中。 即教师模型的训练集不可访问，教师模型可以是同构的，也可以是异构的。 Dummy是最直观的基线，它通过整合教师模型的输出来直接进行预测。
 
-\begin{figure}[t]
+\begin{figure}[h!]
 	\subfigure[Car]{
 		\begin{minipage}[b]{.3\linewidth}
 			\centering
-			\includegraphics[scale=0.5]{./MCCP_results/car.pdf}
+			\includegraphics[scale=0.55]{./MCCP_results/car.pdf}
 		\end{minipage}
 	}
 	\subfigure[Flower]{
 		\begin{minipage}[b]{.3\linewidth}
 			\centering
-			\includegraphics[scale=0.5]{./MCCP_results/flower.pdf}
+			\includegraphics[scale=0.55]{./MCCP_results/flower.pdf}
 		\end{minipage}
 	}
 	\subfigure[Food]{
 		\begin{minipage}[b]{.3\linewidth}
 			\centering
-			\includegraphics[scale=0.5]{./MCCP_results/food.pdf}
+			\includegraphics[scale=0.55]{./MCCP_results/food.pdf}
 		\end{minipage}
 	}
 	
 	\subfigure[Fruit]{
 		\begin{minipage}[b]{.3\linewidth}
 			\centering
-			\includegraphics[scale=0.5]{./MCCP_results/fruit.pdf}
+			\includegraphics[scale=0.55]{./MCCP_results/fruit.pdf}
 		\end{minipage}
 	}
 	\subfigure[Sport]{
 		\begin{minipage}[b]{.3\linewidth}
 			\centering
-			\includegraphics[scale=0.5]{./MCCP_results/sport.pdf}
+			\includegraphics[scale=0.55]{./MCCP_results/sport.pdf}
 		\end{minipage}
 	}
 	\subfigure[Weather]{
 		\begin{minipage}[b]{.3\linewidth}
 			\centering
-			\includegraphics[scale=0.5]{./MCCP_results/weather.pdf}
+			\includegraphics[scale=0.55]{./MCCP_results/weather.pdf}
 		\end{minipage}
 	}
 	
 	\subfigure[Animal\_1]{
 		\begin{minipage}[b]{.3\linewidth}
 			\centering
-			\includegraphics[scale=0.5]{./MCCP_results/animal_1.pdf}
+			\includegraphics[scale=0.55]{./MCCP_results/animal_1.pdf}
 		\end{minipage}
 	}
 	\subfigure[Animal\_2]{
 		\begin{minipage}[b]{.3\linewidth}
 			\centering
-			\includegraphics[scale=0.5]{./MCCP_results/animal_2.pdf}
+			\includegraphics[scale=0.55]{./MCCP_results/animal_2.pdf}
 		\end{minipage}
 	}
 	\subfigure[Animal\_3]{
 		\begin{minipage}[b]{.3\linewidth}
 			\centering
-			\includegraphics[scale=0.5]{./MCCP_results/animal_3.pdf}
+			\includegraphics[scale=0.55]{./MCCP_results/animal_3.pdf}
 		\end{minipage}
 	}
 	\caption{训练后学生模型的准确性。横轴表示用于训练的手动标注的采样比例，纵轴表示学生模型在混合测试集中的分类准确率。}
@@ -432,7 +432,7 @@ Dummy）。 选择HMR和CFL的原因是这两种方法可以很好地迁移到�
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.48\linewidth]{Backdoor.pdf}
+	\includegraphics[width=0.6\linewidth]{Backdoor.pdf}
 	\caption{一个被植入后门的多分类深度学习模型 $\mathcal{M}_\mathcal{I}$}
 	\label{Backdoor_injected_model}
 \end{figure}
@@ -563,38 +563,38 @@ Dummy）。 选择HMR和CFL的原因是这两种方法可以很好地迁移到�
 	\subfigure[Car]{
 		\begin{minipage}[b]{.3\linewidth}
 			\centering
-			\includegraphics[scale=0.3]{./Backdoor_detect_result/target_class/BadNets.png}
+			\includegraphics[scale=0.28]{./Backdoor_detect_result/target_class/BadNets.png}
 		\end{minipage}
 	}
 	\subfigure[Flower]{
 		\begin{minipage}[b]{.3\linewidth}
 			\centering
-			\includegraphics[scale=0.3]{./Backdoor_detect_result/target_class/Blended.png}
+			\includegraphics[scale=0.28]{./Backdoor_detect_result/target_class/Blended.png}
 		\end{minipage}
 	}
 	\subfigure[Food]{
 		\begin{minipage}[b]{.3\linewidth}
 			\centering
-			\includegraphics[scale=0.3]{./Backdoor_detect_result/target_class/IAD.png}
+			\includegraphics[scale=0.28]{./Backdoor_detect_result/target_class/IAD.png}
 		\end{minipage}
 	}
 	
 	\subfigure[Fruit]{
 		\begin{minipage}[b]{.3\linewidth}
 			\centering
-			\includegraphics[scale=0.3]{./Backdoor_detect_result/target_class/LabelConsistent.png}
+			\includegraphics[scale=0.28]{./Backdoor_detect_result/target_class/LabelConsistent.png}
 		\end{minipage}
 	}
 	\subfigure[Sport]{
 		\begin{minipage}[b]{.3\linewidth}
 			\centering
-			\includegraphics[scale=0.3]{./Backdoor_detect_result/target_class/Refool.png}
+			\includegraphics[scale=0.28]{./Backdoor_detect_result/target_class/Refool.png}
 		\end{minipage}
 	}
 	\subfigure[Weather]{
 		\begin{minipage}[b]{.3\linewidth}
 			\centering
-			\includegraphics[scale=0.3]{./Backdoor_detect_result/target_class/WaNet.png}
+			\includegraphics[scale=0.28]{./Backdoor_detect_result/target_class/WaNet.png}
 		\end{minipage}
 	}
 	\caption{确定攻击目标类}
@@ -603,45 +603,44 @@ Dummy）。 选择HMR和CFL的原因是这两种方法可以很好地迁移到�
 
 \begin{figure}[t]
 	\subfigure[BadNets]{
-		\begin{minipage}[b]{.5\linewidth}
+		\begin{minipage}[b]{.3\linewidth}
 			\centering
-			\includegraphics[scale=0.1]{./Backdoor_detect_result/detect/BadNets.png}
+			\includegraphics[scale=0.28]{./Backdoor_detect_result/detect/BadNets.png}
 		\end{minipage}
 	}
 	\subfigure[Blended]{
-		\begin{minipage}[b]{.5\linewidth}
+		\begin{minipage}[b]{.3\linewidth}
 			\centering
-			\includegraphics[scale=0.1]{./Backdoor_detect_result/detect/Blended.png}
+			\includegraphics[scale=0.28]{./Backdoor_detect_result/detect/Blended.png}
 		\end{minipage}
 	}
-	
 	\subfigure[IAD]{
-		\begin{minipage}[b]{.5\linewidth}
+		\begin{minipage}[b]{.3\linewidth}
 			\centering
-			\includegraphics[scale=0.1]{./Backdoor_detect_result/detect/IAD.png}
-		\end{minipage}
-	}
-	\subfigure[LabelConsistent]{
-		\begin{minipage}[b]{.5\linewidth}
-			\centering
-			\includegraphics[scale=0.1]{./Backdoor_detect_result/detect/LabelConsistent.png}
+			\includegraphics[scale=0.28]{./Backdoor_detect_result/detect/IAD.png}
 		\end{minipage}
 	}
 	
-	\subfigure[Refool]{
-		\begin{minipage}[b]{.5\linewidth}
+	\subfigure[LabelConsistent]{
+		\begin{minipage}[b]{.3\linewidth}
 			\centering
-			\includegraphics[scale=0.1]{./Backdoor_detect_result/detect/Refool.png}
+			\includegraphics[scale=0.28]{./Backdoor_detect_result/detect/LabelConsistent.png}
+		\end{minipage}
+	}
+	\subfigure[Refool]{
+		\begin{minipage}[b]{.3\linewidth}
+			\centering
+			\includegraphics[scale=0.28]{./Backdoor_detect_result/detect/Refool.png}
 		\end{minipage}
 	}
 	\subfigure[WaNet]{
-		\begin{minipage}[b]{.5\linewidth}
+		\begin{minipage}[b]{.3\linewidth}
 			\centering
-			\includegraphics[scale=0.1]{./Backdoor_detect_result/detect/WaNet.png}
+			\includegraphics[scale=0.28]{./Backdoor_detect_result/detect/WaNet.png}
 		\end{minipage}
 	}
 	
-	\caption{确定攻击目标类}
+	\caption{木马样本检测}
 	\label{detect}
 \end{figure}
 
