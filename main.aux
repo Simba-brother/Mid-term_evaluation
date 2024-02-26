@@ -7,6 +7,7 @@
 \citation{chakraborty2019software}
 \citation{mohammed2023comprehensive}
 \citation{Tesla}
+\citation{amershi2019software}
 \citation{landscapes}
 \citation{amershi2019software}
 \citation{poulin1996measuring}
@@ -30,12 +31,12 @@
 \citation{pan2020decomposing,qi2022patching}
 \citation{qi2023reusing}
 \citation{meng2021measuring}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces 这是一个展示我们研究场景的示例，开发人员旨在组合两个深度学习模型（模型 A 和 B）来构建联合模型（模型 C）。\relax }}{2}\protected@file@percent }
-\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{MCCP}{{1}{2}}
 \citation{liu2020survey,kaviani2021defense,li2022backdoor}
 \citation{liu2019abs}
 \citation{gao2019strip}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces 这是一个展示我们研究场景的示例，开发人员旨在组合两个深度学习模型（模型 A 和 B）来构建联合模型（模型 C）。\relax }}{3}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{MCCP}{{1}{3}}
 \citation{yang2017deep}
 \citation{ding2020boosting}
 \citation{meng2021measuring}
@@ -48,14 +49,14 @@
 \citation{shao2021towards}
 \citation{pan2022decomposing}
 \citation{qi2022patching}
-\citation{ji2018model}
-\citation{li2021modeldiff}
-\citation{zhang2022remos}
-\citation{qi2023reusing}
 \@writefile{toc}{\contentsline {section}{\numberline {2}相关工作}{4}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1}深度学习模型融合}{4}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.1}知识复用}{4}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.2}模型重用}{4}\protected@file@percent }
+\citation{ji2018model}
+\citation{li2021modeldiff}
+\citation{zhang2022remos}
+\citation{qi2023reusing}
 \citation{you2017learning}
 \citation{shen2019amalgamating}
 \citation{shen2019customizing}
@@ -88,8 +89,10 @@
 \citation{humbatova2021deepcrime}
 \@writefile{toc}{\contentsline {section}{\numberline {3}问题描述}{6}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1}模型融合}{6}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces 模型合并的例子。 \text  {$\mathsurround \z@ \mathchar "6D8$}和 $\times $ 代表了是否包含分类。\relax }}{6}\protected@file@percent }
-\newlabel{moti2}{{2}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces 模型合并的例子。 \text  {$\mathsurround \z@ \mathchar "6D8$}和 $\times $ 代表了是否包含分类。\relax }}{7}\protected@file@percent }
+\newlabel{moti2}{{2}{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}后门模型木马输入检测}{7}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}思路及解决方案}{7}\protected@file@percent }
 \citation{CarBodyStyleDataset}
 \citation{CarBodyStyle}
 \citation{FlowerClassification}
@@ -108,24 +111,21 @@
 \citation{Animal5Mammal}
 \citation{wildCats}
 \citation{WildlifeAnimalsImages}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}后门模型木马输入检测}{7}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4}思路及解决方案}{7}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}基于级联并行的模型合并技术}{7}\protected@file@percent }
 \citation{yang2017deep}
-\citation{sung2022lst}
 \@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces The datasets and models used in this experiment.\relax }}{8}\protected@file@percent }
 \newlabel{dataset}{{1}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}基于级联并行的模型合并技术}{8}\protected@file@percent }
+\citation{sung2022lst}
 \citation{shen2020multiple}
 \citation{wu2019heterogeneous}
 \citation{luo2019knowledge}
-\newlabel{weightFormula}{{1}{9}}
 \citation{shen2020multiple}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces 我们的MCCP方法的流程图。$\mathcal  {W_A}$和$\mathcal  {W_B}$分别表示最后一层$\mathcal  {M_A}$和$\mathcal  {M_B}$的权重。 绿色阴影层代表最后一个隐藏层的组合。 虚线的权重值为 0。\relax }}{10}\protected@file@percent }
+\newlabel{MCCP_method}{{3}{10}}
+\newlabel{weightFormula}{{1}{10}}
 \citation{jia2010analysis}
 \citation{shen2018munn,ma2018deepmutation}
 \citation{ma2018deepmutation}
-\citation{wang2019adversarial}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces 我们的MCCP方法的流程图。$\mathcal  {W_A}$和$\mathcal  {W_B}$分别表示最后一层$\mathcal  {M_A}$和$\mathcal  {M_B}$的权重。 绿色阴影层代表最后一个隐藏层的组合。 虚线的权重值为 0。\relax }}{10}\protected@file@percent }
-\newlabel{MCCP_method}{{3}{10}}
 \citation{wang2019adversarial}
 \@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces 训练后学生模型的准确性。横轴表示用于训练的手动标注的采样比例，纵轴表示学生模型在混合测试集中的分类准确率。\relax }}{11}\protected@file@percent }
 \newlabel{major_results}{{4}{11}}
@@ -138,9 +138,10 @@
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(g)}{\ignorespaces {Animal\_1}}}{11}\protected@file@percent }
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(h)}{\ignorespaces {Animal\_2}}}{11}\protected@file@percent }
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(i)}{\ignorespaces {Animal\_3}}}{11}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}基于熵的木马输入检测技术}{11}\protected@file@percent }
+\citation{wang2019adversarial}
 \citation{shen2020mcp}
 \citation{gao2019strip}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}基于熵的木马输入检测技术}{12}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces 一个被植入后门的多分类深度学习模型 $\mathcal  {M}_\mathcal  {I}$\relax }}{12}\protected@file@percent }
 \newlabel{Backdoor_injected_model}{{5}{12}}
 \citation{shen2018munn}
@@ -149,22 +150,14 @@
 \citation{shen2018munn}
 \@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces 采用的5种模型级变异算子\relax }}{13}\protected@file@percent }
 \newlabel{Mutation_Operator}{{2}{13}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces 确定攻击目标类\relax }}{14}\protected@file@percent }
-\newlabel{target_class}{{6}{14}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Car}}}{14}\protected@file@percent }
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Flower}}}{14}\protected@file@percent }
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {Food}}}{14}\protected@file@percent }
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {Fruit}}}{14}\protected@file@percent }
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(e)}{\ignorespaces {Sport}}}{14}\protected@file@percent }
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(f)}{\ignorespaces {Weather}}}{14}\protected@file@percent }
 \@writefile{loa}{\contentsline {algocf}{\numberline {1}{\ignorespaces Backdoor Sample Detection\relax }}{15}\protected@file@percent }
 \newlabel{algo_BSD}{{1}{15}}
 \bibstyle{plain}
 \bibdata{ref}
 \bibcite{wildCats}{1}
 \bibcite{DangerOfExtinction}{2}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces 木马样本检测\relax }}{16}\protected@file@percent }
-\newlabel{detect}{{7}{16}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces 确定攻击目标类\relax }}{16}\protected@file@percent }
+\newlabel{target_class}{{6}{16}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {BadNets}}}{16}\protected@file@percent }
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Blended}}}{16}\protected@file@percent }
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {IAD}}}{16}\protected@file@percent }
@@ -178,6 +171,14 @@
 \bibcite{FlowersRecognition}{6}
 \bibcite{Vegetables}{7}
 \bibcite{amershi2019software}{8}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces 木马样本检测\relax }}{17}\protected@file@percent }
+\newlabel{detect}{{7}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {BadNets}}}{17}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Blended}}}{17}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {IAD}}}{17}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {LabelConsistent}}}{17}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(e)}{\ignorespaces {Refool}}}{17}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(f)}{\ignorespaces {WaNet}}}{17}\protected@file@percent }
 \bibcite{WeatherImageRecognition}{9}
 \bibcite{food11}{10}
 \bibcite{self_Driving}{11}

@@ -123,7 +123,9 @@
 近年来，深度学习模型在许多安全攸关场景中广泛应用，如医疗\cite{medical}、自动驾驶\cite{self_Driving}和语音识别\cite{speech_recognition}等领域。在这些复杂应用环境下，虽然深度学习模型已达到甚至超越人类的能力，但深度学习模型在开发维护\cite{menghani2023efficient}和质量保障\cite{chakraborty2019software}等方面中仍然面临挑战。在深度学习模型开发方面，正如在文献\cite{mohammed2023comprehensive}中所述，深度学习模型的训练过程需要付出巨大的努力，调整最优超参数需要专业知识和大量的尝试，这是一项繁琐且耗时的任务。在质量保障方面，例如，Tesla的自动驾驶汽车事故就造成了人员财物上的巨大损失\cite{Tesla}。因此，迫切需要相应的技术去提高深度学习模型开发维护效率和安全性以应对复杂的应用和开发环境。
 
 % 解释研究的东西是什么（深度学习模型的开发与维护和质量保障）
-深度学习模型开发与维护：开发和维护深度学习模型的主要挑战之一是模型训练，这通常需要大量的人力资源和计算能力（如标记成本和参数训练）。深度学习模型质量保障：涵盖模型质量的多方面指标，包括正确性和安全性等\cite{landscapes}。和传统软件相比，深度学习模型的正确性和安全性范畴具有很大的不同。传统软件程序主要依赖于程序员手动构建业务逻辑，深度学习模型主要通过数据驱动的编程范式来构建，其决策逻辑通过训练过程来获得，即模型的行为可能会随着新的训练数据的加入而演化\cite{amershi2019software}。除源代码之外，训练数据集和模型是影响深度学习系统质量的重要组成部分。
+深度学习模型开发与维护：参考之前的研究\cite{amershi2019software}，其将模型开发维护过程分为了9个阶段，分别是（1）模型需求；（2）数据收集；（3）数据清洗；（4）数据标注；（5）特征工程；（6）模型训练；（7）模型评估；（8）模型部署；（9）模型监控。在这9个阶段中模型训练是开发和维护深度学习模型的主要挑战之一是，因为通常需要大量的人力资源和计算能力（如标记成本和参数训练）。更严峻的是，如果模型的需求发生了改变，就要重新对模型进行训练。因此，如何提高模型随需求改变而进行演化的能力，在软件工程领域受到了广泛关注。
+
+深度学习模型质量保障：涵盖模型质量的多方面指标，包括正确性和安全性等\cite{landscapes}。和传统软件相比，深度学习模型的正确性和安全性范畴具有很大的不同。传统软件程序主要依赖于程序员手动构建业务逻辑，深度学习模型主要通过数据驱动的编程范式来构建，其决策逻辑通过训练过程来获得，即模型的行为可能会随着新的训练数据的加入而演化\cite{amershi2019software}。除源代码之外，训练数据集和模型是影响深度学习系统质量的重要组成部分。
 
 % 研究的技术（DL testing）现状
 软件复用是提高软件开发维护的常用方法，通过复用已经已有的代码，进而提高开发维护效率\cite{poulin1996measuring}。深度学习模型复用技术，尝试复用现有的可用的在其他任务上训练的模型来构建模型，这为减少所需的训练样例数量和训练时间成本提供了巨大的潜力，因为现有模型的利用可能有助于为新模型的训练奠定良好的基础。近年来，在深度学习模型复用领域，学者们进行了广泛研究。文献\cite{zhou2016learnware}强调可重用性是学习软件新概念的一个关键特征。如果模型可以在与原始训练场景有很大不同的场景中重用，那该模型具有良好的可重用性。随着深度学习的快速发展，开发者发布了越来越多的预训练模型。经过训练的模型可以被视为相应任务的专\cite{yang2017deep}. 如何复用模型中包含的知识引起了学者们的关注。模型融合技术提供了模型知识复用的可能技术。You等\cite{you2017learning}提出了一种从多个教师模型中提取知识来训练学生模型的方法。在进行知识融合时，不仅要考虑实际教师模型的输出，还要考虑模型中间层不同样本的表示。Shen等\cite{shen2019amalgamating}提出通过知识合并完成综合分类任务，但限制教师模型必须是同构的。在进一步的研究中，Shen 等\cite{shen2019customizing}提出通过知识合并从异构教师模型中获得学生模型。
@@ -250,8 +252,8 @@
 当后门被攻击触发器激活后，$\mathcal{M}_\mathcal{I}$ 预测木马输入 $x^t$ 为攻击指定的分类\textbf{目标类别} $C_\mathcal{T}$, 即,  $\mathcal{M}_\mathcal{I}(x^t)=C_\mathcal{T}$。
 \end{definition}
 
-\begin{definition}[木马输入检测]
-给定一个被感染深度学习模型$\mathcal{M}_\mathcal{I}$ 和一个包含干净和恶意样本输入的集合$\{x_1,x_2,\dots,x_n\}$，假定当前模型不知道被植入后门的攻击和目标类信息。我们要研究的问题如下：对于每一个输入样本${x_i}$，可以检测出$x_i$是否是木马输入。即，$\text{TID}(x_i)\in \{\text{clean},\text{trojaned}\}$。
+\begin{definition}[木马样本检测]
+给定一个被感染深度学习模型$\mathcal{M}_\mathcal{I}$ 和一个包含干净和恶意样本输入的训练集合$\{x_1,x_2,\dots,x_n\}$，假定当前模型不知道被植入后门的攻击和目标类信息。我们要研究的问题如下：对于每一个训练样本${x_i}$，可以检测出$x_i$是否是木马样。即，$\text{TID}(x_i)\in \{\text{clean},\text{trojaned}\}$。
 \end{definition}
 
 我们将采用软件测试的思路去研究木马输入检测的问题，具体为采用深度学习变异测试技术来生成被感染模型的变异体，通关观察变异体在木马输入和干净输入的差异来识别木马输入。
@@ -490,14 +492,14 @@ Dummy）。 选择HMR和CFL的原因是这两种方法可以很好地迁移到�
 变异模型排序：
 首先，人工从攻击类别中选择少量干净样本。计算变异模型在干净样本和剩余样本的精度差。差值越小的变异模型优先级越高，以此对变异模型进行排序。
 
-具体来说，例如，如果在第一步中确定攻击目标类为类1，我们就人工从类别为1的样本中，选择少量的干净样本作为干净种子集合记为$Seed_{clean}$，则类1中剩余的样本集合记为$RemainSet$。然后计算变异模型$\mathcal{M}_m$在$Seed_{clean}$上的准确度，记为$\mathcal{ACC(}\mathcal{M}_m, Seed_clean\mathcal{)}$,  计算变异模型$\mathcal{M}_m$在$RemainSet$上的准确度，记为$\mathcal{ACC(}\mathcal{M}_m, RemainSet\mathcal{)}$。用$\mathcal{ACC(}\mathcal{M}_m,Seed_clean\mathcal{)}-\mathcal{ACC(}\mathcal{M}_m,RemainSet\mathcal{)}$表示变异模型$\mathcal{M}_m$的优先级值，值越小则优先级越高，以此优先级生成变异模型的优先级队列。
+具体来说，例如，如果在第一步中确定攻击目标类为类1，我们就人工从类别为1的样本中，选择少量的干净样本作为干净种子集合记为$Seed_{clean}$，则类1中剩余的样本集合记为$RemainSet$。然后计算变异模型$\mathcal{M}_m$在$Seed_{clean}$上的准确度，记为$\mathcal{ACC(}\mathcal{M}_m, Seed_{clean}\mathcal{)}$,  计算变异模型$\mathcal{M}_m$在$RemainSet$上的准确度，记为$\mathcal{ACC(}\mathcal{M}_m, RemainSet\mathcal{)}$。表示变异模型$\mathcal{M}_m$的优先级值可用$\mathcal{ACC(}\mathcal{M}_m,Seed_{clean}\mathcal{)}-\mathcal{ACC(}\mathcal{M}_m,RemainSet\mathcal{)}$表示，值越小则优先级越高，以此优先级生成变异模型的优先级队列。
 
 基于熵的后门检测：
 选择前50的变异模型，在攻击目标类中计算样本的预测分类结果的熵。熵越大则该样本越可能为后门样本。
 
 具体来说，紧接上一步，我们从变异模型优先级队列中取出前50个变异模型作为我们变异模型组。将攻击目标类（如类别1）中的每个样本都喂给每个变异模型，即获得每个待测样的50个预测标签列表，进而计算每个预测标签列表的信息熵。根据我们的见解，干净样本对模型的变异更为敏感，故熵越大则该样本越可能为后门样本。将熵值作为优先级，我们可以获得待测样本的优先级队列（即越靠近队头越有可能为后门样本）。
 
-具体的实现算法如\ref{algo_BSD}所示
+具体的实现算法如算法\ref{algo_BSD}所示。第1行，我们先预先定义从小到大的变异率。第2行至第10行，完成确定攻击目标类，即变异率从小到大对后门模型进行变异，当可以确定出攻击目标类时终止，不再进行变异否则继续变异。第12行至第19行，利用种子样本对变异模型进行排序。第21行至24行，计算待测样本熵，生成优先级队列。
 
 
 \begin{algorithm}
@@ -556,42 +558,43 @@ Dummy）。 选择HMR和CFL的原因是这两种方法可以很好地迁移到�
 \end{algorithm}
 
 
-我们在三个图像数据集（MINST、CIFAR-10、GTSRB）上进行了实验。其中第一步和第二步实验结果分布如图\ref{target_class}和图\ref{detect}所示，我们的方法在攻击类别的确定和后门样本的检测均取得了较好的效果。
+我们在三个图像数据集（MINST、CIFAR-10、GTSRB）上进行了实验。
+其中在CIFAR-10数据集,ResNet18模型的第一步(确定目标攻击类)和第二步实验结果分布如图\ref{target_class}和图\ref{detect}所示，从结果上来看，在第一步中，可以明显看出攻击目标类（Class 1）在变异模型上的精度分布高于其他类，具有明显差异(Wilcoxon有符号秩检验 p值小于0.05)。在第二步中，图\ref{detect}所示，每个子图对应一个后门攻击，横轴为待测样本优先级队列的前截取比例。例如横轴0.1表示，将队列的前10\%样本为检测为木马样本。纵轴为检测性能指标分别计算了精度(precision)和召回率(recall)。从结果上来看，对于每个后门攻击，木马样本的检查效果都非常好。
 
 
 \begin{figure}[t]
-	\subfigure[Car]{
+	\subfigure[BadNets]{
 		\begin{minipage}[b]{.3\linewidth}
 			\centering
 			\includegraphics[scale=0.28]{./Backdoor_detect_result/target_class/BadNets.png}
 		\end{minipage}
 	}
-	\subfigure[Flower]{
+	\subfigure[Blended]{
 		\begin{minipage}[b]{.3\linewidth}
 			\centering
 			\includegraphics[scale=0.28]{./Backdoor_detect_result/target_class/Blended.png}
 		\end{minipage}
 	}
-	\subfigure[Food]{
+	\subfigure[IAD]{
 		\begin{minipage}[b]{.3\linewidth}
 			\centering
 			\includegraphics[scale=0.28]{./Backdoor_detect_result/target_class/IAD.png}
 		\end{minipage}
 	}
 	
-	\subfigure[Fruit]{
+	\subfigure[LabelConsistent]{
 		\begin{minipage}[b]{.3\linewidth}
 			\centering
 			\includegraphics[scale=0.28]{./Backdoor_detect_result/target_class/LabelConsistent.png}
 		\end{minipage}
 	}
-	\subfigure[Sport]{
+	\subfigure[Refool]{
 		\begin{minipage}[b]{.3\linewidth}
 			\centering
 			\includegraphics[scale=0.28]{./Backdoor_detect_result/target_class/Refool.png}
 		\end{minipage}
 	}
-	\subfigure[Weather]{
+	\subfigure[WaNet]{
 		\begin{minipage}[b]{.3\linewidth}
 			\centering
 			\includegraphics[scale=0.28]{./Backdoor_detect_result/target_class/WaNet.png}
