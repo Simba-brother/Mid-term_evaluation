@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{wildCats}
 wild cats, {five different wild cats (cheetah, tigers, jaguars, panthers, and
@@ -91,6 +91,12 @@ Defang Chen, Jian-Ping Mei, Hailin Zhang, Can Wang, Yan Feng, and Chun Chen.
 \newblock Knowledge distillation with the reused teacher classifier.
 \newblock In {\em Proceedings of the IEEE/CVF conference on computer vision and
   pattern recognition}, pages 11933--11942, 2022.
+
+\bibitem{chen2017targeted}
+Xinyun Chen, Chang Liu, Bo~Li, Kimberly Lu, and Dawn Song.
+\newblock Targeted backdoor attacks on deep learning systems using data
+  poisoning.
+\newblock {\em arXiv preprint arXiv:1712.05526}, 2017.
 
 \bibitem{CarBodyStyleDataset}
 {Darshan Deshpande}.
@@ -192,6 +198,11 @@ Jianping Gou, Baosheng Yu, Stephen~J Maybank, and Dacheng Tao.
 \newblock Knowledge distillation: A survey.
 \newblock {\em International Journal of Computer Vision}, 129:1789--1819, 2021.
 
+\bibitem{gu2019badnets}
+Tianyu Gu, Kang Liu, Brendan Dolan-Gavitt, and Siddharth Garg.
+\newblock Badnets: Evaluating backdooring attacks on deep neural networks.
+\newblock {\em IEEE Access}, 7:47230--47244, 2019.
+
 \bibitem{hu2019deepmutation++}
 Qiang Hu, Lei Ma, Xiaofei Xie, Bing Yu, Yang Liu, and Jianjun Zhao.
 \newblock Deepmutation++: A mutation testing framework for deep learning
@@ -285,6 +296,14 @@ Yingqi Liu, Wen-Chuan Lee, Guanhong Tao, Shiqing Ma, Yousra Aafer, and Xiangyu
 \newblock In {\em Proceedings of the 2019 ACM SIGSAC Conference on Computer and
   Communications Security}, pages 1265--1282, 2019.
 
+\bibitem{liu2020reflection}
+Yunfei Liu, Xingjun Ma, James Bailey, and Feng Lu.
+\newblock Reflection backdoor: A natural backdoor attack on deep neural
+  networks.
+\newblock In {\em Computer Vision--ECCV 2020: 16th European Conference,
+  Glasgow, UK, August 23--28, 2020, Proceedings, Part X 16}, pages 182--199.
+  Springer, 2020.
+
 \bibitem{liu2020survey}
 Yuntao Liu, Ankit Mondal, Abhishek Chakraborty, Michael Zuzak, Nina Jacobsen,
   Daniel Xing, and Ankur Srivastava.
@@ -358,6 +377,17 @@ Seyed-Mohsen Moosavi-Dezfooli, Alhussein Fawzi, and Pascal Frossard.
 \newblock Deepfool: a simple and accurate method to fool deep neural networks.
 \newblock In {\em Proceedings of the IEEE conference on computer vision and
   pattern recognition}, pages 2574--2582, 2016.
+
+\bibitem{nguyen2021wanet}
+Anh Nguyen and Anh Tran.
+\newblock Wanet--imperceptible warping-based backdoor attack.
+\newblock {\em arXiv preprint arXiv:2102.10369}, 2021.
+
+\bibitem{nguyen2020input}
+Tuan~Anh Nguyen and Anh Tran.
+\newblock Input-aware dynamic backdoor attack.
+\newblock {\em Advances in Neural Information Processing Systems},
+  33:3454--3464, 2020.
 
 \bibitem{pan2020decomposing}
 Rangeet Pan and Hridesh Rajan.
@@ -488,6 +518,11 @@ Yuchi Tian, Kexin Pei, Suman Jana, and Baishakhi Ray.
   cars.
 \newblock In {\em Proceedings of the 40th international conference on software
   engineering}, pages 303--314, 2018.
+
+\bibitem{turner2019label}
+Alexander Turner, Dimitris Tsipras, and Aleksander Madry.
+\newblock Label-consistent backdoor attacks.
+\newblock {\em arXiv preprint arXiv:1912.02771}, 2019.
 
 \bibitem{FlowerClassification}
 {Utkarsh Saxena}.
